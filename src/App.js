@@ -5,14 +5,14 @@ import { Header } from './components/common';
 import { LoginForm } from './components/LoginForm';
 
 class App extends Component {
-  ComponentWillMount() {
+  componentWillMount() {
       firebase.initializeApp({
-      apiKey: 'AIzaSyBPLyR50mTalL5T-Qvh4hHyAeTM0iS2UOE',
-      authDomain: 'auth-a6bd3.firebaseapp.com',
-      databaseURL: 'https://auth-a6bd3.firebaseio.com',
-      projectId: 'auth-a6bd3',
-      storageBucket: 'auth-a6bd3.appspot.com',
-      messagingSenderId: '549446187663'
+        apiKey: 'AIzaSyBPLyR50mTalL5T-Qvh4hHyAeTM0iS2UOE',
+        authDomain: 'auth-a6bd3.firebaseapp.com',
+        databaseURL: 'https://auth-a6bd3.firebaseio.com',
+        // projectId: 'auth-a6bd3',
+        storageBucket: 'auth-a6bd3.appspot.com',
+        messagingSenderId: '549446187663'
     });
   }
 

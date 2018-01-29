@@ -34,5 +34,4 @@ const styles = {
   paddingBottom: 10
   }
 };
-
 export { Button };
